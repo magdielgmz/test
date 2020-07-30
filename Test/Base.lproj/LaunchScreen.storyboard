@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon_Lauch" translatesAutoresizingMaskIntoConstraints="NO" id="ANb-WT-7Qt">
-                                <rect key="frame" x="50" y="341" width="314" height="214"/>
+                                <rect key="frame" x="150" y="341" width="114" height="214"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ANb-WT-7Qt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="36K-Kk-vd5"/>
+                            <constraint firstItem="ANb-WT-7Qt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="36K-Kk-vd5"/>
                             <constraint firstItem="ANb-WT-7Qt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3uA-fv-2Sa"/>
                             <constraint firstItem="ANb-WT-7Qt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="U8h-vJ-qO7"/>
                             <constraint firstItem="ANb-WT-7Qt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="297" id="fgQ-G5-AOa"/>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF5D6F5524CBC7A0004D4502 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5D6F5424CBC7A0004D4502 /* HomeViewController.swift */; };
+		EF7333F124CBF0120009BDC4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7333F024CBF0120009BDC4 /* HomeController.swift */; };
 		EF7F48C124C947D3006BCB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48C024C947D3006BCB20 /* AppDelegate.swift */; };
 		EF7F48C324C947D3006BCB20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48C224C947D3006BCB20 /* SceneDelegate.swift */; };
 		EF7F48C524C947D3006BCB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48C424C947D3006BCB20 /* ViewController.swift */; };
@@ -16,7 +18,6 @@
 		EF7F48D824C947D4006BCB20 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48D724C947D4006BCB20 /* TestTests.swift */; };
 		EF7F48E324C947D5006BCB20 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48E224C947D5006BCB20 /* TestUITests.swift */; };
 		EF7F48F224C94891006BCB20 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48F124C94891006BCB20 /* Extensions.swift */; };
-		EF7F48F524C969B9006BCB20 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7F48F424C969B9006BCB20 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF5D6F5424CBC7A0004D4502 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EF7333F024CBF0120009BDC4 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		EF7F48BD24C947D3006BCB20 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF7F48C024C947D3006BCB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF7F48C224C947D3006BCB20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +55,6 @@
 		EF7F48E224C947D5006BCB20 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		EF7F48E424C947D5006BCB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7F48F124C94891006BCB20 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		EF7F48F424C969B9006BCB20 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF5D6F5324CBC707004D4502 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF5D6F5424CBC7A0004D4502 /* HomeViewController.swift */,
+				EF7333F024CBF0120009BDC4 /* HomeController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EF7F48B424C947D3006BCB20 = {
 			isa = PBXGroup;
 			children = (
-				EF7F48F324C96976006BCB20 /* Views */,
 				EF7F48F024C9484F006BCB20 /* Utilitis */,
 				EF7F48BF24C947D3006BCB20 /* Test */,
 				EF7F48D624C947D4006BCB20 /* TestTests */,
@@ -105,6 +115,7 @@
 		EF7F48BF24C947D3006BCB20 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				EF5D6F5324CBC707004D4502 /* Views */,
 				EF7F48C024C947D3006BCB20 /* AppDelegate.swift */,
 				EF7F48C224C947D3006BCB20 /* SceneDelegate.swift */,
 				EF7F48C424C947D3006BCB20 /* ViewController.swift */,
@@ -140,14 +151,6 @@
 				EF7F48F124C94891006BCB20 /* Extensions.swift */,
 			);
 			path = Utilitis;
-			sourceTree = "<group>";
-		};
-		EF7F48F324C96976006BCB20 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				EF7F48F424C969B9006BCB20 /* HomeViewController.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7F48F524C969B9006BCB20 /* HomeViewController.swift in Sources */,
+				EF5D6F5524CBC7A0004D4502 /* HomeViewController.swift in Sources */,
 				EF7F48C524C947D3006BCB20 /* ViewController.swift in Sources */,
+				EF7333F124CBF0120009BDC4 /* HomeController.swift in Sources */,
 				EF7F48C124C947D3006BCB20 /* AppDelegate.swift in Sources */,
 				EF7F48C324C947D3006BCB20 /* SceneDelegate.swift in Sources */,
 				EF7F48F224C94891006BCB20 /* Extensions.swift in Sources */,
