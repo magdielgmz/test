@@ -166,7 +166,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         //generateNavController()
-        view.backgroundColor = .white
+        view.backgroundColor = .backgroundColor
              
     }
     
