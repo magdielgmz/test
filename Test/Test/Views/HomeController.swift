@@ -65,7 +65,7 @@ class HomeController: UIViewController {
         titleLabel.anchor(top: view.topAnchor, paddingTop: 250)
         titleLabel.centerX(inView: view)
         
-        view.backgroundColor = .white
+        view.backgroundColor = .bordersColors
     
     }
 
